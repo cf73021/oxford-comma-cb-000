@@ -3,6 +3,7 @@ def oxford_comma(array)
     if item == "okra"
       item = "okra and"
     end
+  end
   array = array.join(" ")
   return array
 end
